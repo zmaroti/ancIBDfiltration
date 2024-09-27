@@ -8,7 +8,7 @@ Oszkár Schütz*, Zoltán Maróti*, Balázs Tihanyi, Attila P. Kiss, Emil Nyerki
 doi: (in progress)
 
 ### Dependencies
-The code depends on numpy, pandas and the h5py python libraries which needs to be installed in your python environment.
+The code depends on the **numpy**, **pandas** and the **h5py** python libraries which needs to be installed in your python environment.
 
 ### Usage
 ```sh
