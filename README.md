@@ -39,7 +39,7 @@ optional arguments:
                 information scores in separate files.
 ```
 
-In case the ancIBD hdf5 files are under the **hdf5** directory as **ch(1-22).h5** files and the raw ancIBD output is in the **output** directory as **ch(1-22).tsv** files, then the tool invoked with the appropriate parameters:
+In case the ancIBD hdf5 files are under the **hdf5** directory as **chr(1-22).h5** files and the raw ancIBD output is in the **output** directory as **ch(1-22).tsv** files, then the tool invoked with the appropriate parameters:
 ```sh
 truthFilter.py hdf5/chr output/ch FILTERED
 ```
