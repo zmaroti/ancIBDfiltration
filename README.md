@@ -31,7 +31,7 @@ optional arguments:
   --cm CM       Minimum length of IBD fragments in cM to be kept, default 8
   --sc SC       Minimum IBD score (integer) to be kept, default 8 * 220 = 1760
   --sd SD       Minimum SD above the median (by IQR) to consider marker as BAD
-                at IBD length recalculation, default 3
+                at IBD length recalculation, default 6
   --verbose     Output some progress messages, and summary IBD stats per
                 chromosome
   --debug       Save also the consensus/only density/only score filtered,
@@ -43,7 +43,9 @@ In case the ancIBD hdf5 files are under the **hdf5** directory as **chr(1-22).h5
 ```sh
 truthFilter.py hdf5/chr output/ch FILTERED
 ```
-will filter out >8cM, >1760 IBD informativity score IBD segments. IBDs extending into regions with 3SD higher IBD count compared to the median IBD count of the analysed markers are truncated for the low confidence mask areas, and kept only when the remaining high confidence region is above the length threshold. The results are saved in the FILTERED.tsv file. The optional parameters can be used to control the length, score, mask thresholds, and the list of chromosomes to be analyzed. The *--verbose* flag will print out progress and some summary stats on the filtered IBD segments. The *--debug* flag will result in the following additional files:
+will filter out >8cM, >1760 IBD informativity score IBD segments. IBDs extending into regions with 6SD higher IBD count compared to the median IBD count of the analysed markers are truncated for the low confidence mask areas, and kept only when the remaining high confidence region is above the length threshold. The filtered IBDs are saved in the **FILTERED.tsv** file. The optional parameters can be used to control the length, score, mask thresholds, and the list of chromosomes to be analyzed. The *--verbose* flag will print out progress and some summary stats on the filtered IBD segments.
+
+The *--debug* flag will result in the following additional files:
 * FILTERED_consensus.tsv
 * FILTERED_onlyDensity.tsv
 * FILTERED_onlyScore.tsv
