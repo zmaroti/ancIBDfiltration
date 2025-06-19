@@ -3,10 +3,9 @@ TRUTH - True Ratio of Unbiased IBD Through Hypothesis, a tool to filter raw ancI
 This repository contains the python code to filter the raw ancIBD output for true positive IBD segments.
 
 The approach is described in detail in our upcoming manuscript:
-Oszkár Schütz*, Zoltán Maróti*, Balázs Tihanyi, Attila P. Kiss, Emil Nyerki, Alexandra Gînguță, Petra Kiss, Gergely I. B. Varga, Bence Kovács, Kitti Maár, Bernadett Ny. Kovacsóczy, Nikoletta Lukács, István Major, Antónia Marcsik, Eszter Patyi, Anna Szigeti, Zoltán Tóth, Dorottya Walter, Gábor Wilhelm, Réka Cs. Andrási, Zsolt Bernert, Luca Kis, Liana Loredana Oța, György Pálfi, Gábor Pintye, Dániel Pópity, Angela Simalcsik, Andrei Dorian Soficaru, Olga Spekker, Sándor Varga, Endre Neparáczki and Tibor Török: **Unveiling the Origins and Genetic Makeup of the 'Forgotten People': A Study of the Sarmatian-Period Population in the Carpathian Basin**
+Oszkár Schütz*, Zoltán Maróti*, Balázs Tihanyi, Attila P. Kiss, Emil Nyerki, Alexandra Gînguță, Petra Kiss, Gergely I. B. Varga, Bence Kovács, Kitti Maár, Bernadett Ny. Kovacsóczy, Nikoletta Lukács, István Major, Antónia Marcsik, Eszter Patyi, Anna Szigeti, Zoltán Tóth, Dorottya Walter, Gábor Wilhelm, Réka Cs. Andrási, Zsolt Bernert, Luca Kis, Liana Loredana Oța, György Pálfi, Gábor Pintye, Dániel Pópity, Angela Simalcsik, Andrei Dorian Soficaru, Olga Spekker, Sándor Varga, Endre Neparáczki and Tibor Török: **Unveiling the origins and genetic makeup of the “forgotten people”: A study of the Sarmatian-period population in the Carpathian Basin**
 
-doi: (in progress)
-
+doi: [https://doi.org/10.1016/j.cell.2025.05.009](https://doi.org/10.1016/j.cell.2025.05.009)
 ### Dependencies
 The code depends on the **numpy**, **pandas** and the **h5py** python libraries which needs to be installed in your python environment.
 
